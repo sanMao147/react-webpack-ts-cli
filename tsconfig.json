@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "experimentalDecorators": true, // 开启装饰器使用
+    "skipLibCheck": true,
+    "typeRoots": ["./typings/*.d.ts", "node_modules/@types"]
+  },
+  "include": ["./src", "./typings/*.d.ts"]
+}
